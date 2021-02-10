@@ -1,0 +1,627 @@
+BODY {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      /* font-size: 11px; */
+      color: #000000;
+      border: 0;
+      scrollbar-face-color: #E0E0E0;
+      scrollbar-shadow-color: #C0C0C0;
+      scrollbar-highlight-color: #C0C0C0;
+      scrollbar-3dlight-color: #C0C0C0;
+      scrollbar-darkshadow-color: #C0C0C0;
+      scrollbar-track-color: #E0E0E0;
+      scrollbar-arrow-color: #000000;
+  }
+  
+  H2 {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      font-weight: bold;
+      color: #FF7700;
+  }
+  
+  H3 {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: normal;
+      color: #000000;
+      margin-bottom: 5px;
+      margin-left: 5px;
+  }
+  
+  HR {
+      color: #000000;
+  }
+  
+  FORM {
+      margin-top: 0
+  }
+  
+  TABLE.detail {
+      background-color: #FFFFFF;
+  }
+  
+  TABLE.reports {
+      background-color: #808080;
+  }
+  
+  TABLE.reports1 {
+      background-color: #6699FF;
+  }
+  
+  TABLE.padded {
+      padding-left: 500px;
+  }
+  
+  TR.detail {
+      background-color: #DDEEFF;
+  }
+  
+  TR.reports {
+      background-color: #FFFFFF;
+  }
+  
+  TR.err {
+      background-color: #DDEEFF;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      color: #FF0000;
+      vertical-align: middle;
+      cursor: default;
+  }
+  
+  TR.ADD {
+      background-color: #EFEFEF;
+  }
+  
+  TR.EDIT {
+      background-color: #DDEEFF;
+  }
+  
+  TH {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: normal;
+      color: #000000;
+      background-color: #77BBFF;
+  }
+  
+  TH.reports {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      font-weight: normal;
+      color: #000000;
+      background-color: #FFFFFF;
+  }
+  
+  TD {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      vertical-align: top;
+      cursor: default;
+  }
+  
+  TD.otop {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      vertical-align: middle;
+      cursor: default;
+  }
+  
+  TD.copyright {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9px;
+      font-weight: normal;
+      color: #000000;
+  }
+  
+  TD.sysreq {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 9px;
+      font-weight: normal;
+      color: #FFFFFF;
+  }
+  
+  INPUT {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+      vertical-align: middle;
+  }
+  
+  INPUT.IMAGE {
+      border: 0;
+      vertical-align: middle;
+      cursor: hand;
+  }
+  
+  /*INPUT.BUTTON {
+        background-color: #E0E0E0; 
+        behavior: url(../include/mouseover.htc); 
+        border: #000000 1px solid; 	
+        font-size: 11px;
+        height: 20px; 	
+        width: 60px;
+        cursor: hand;
+        }
+  
+  INPUT.BUTTON2 {
+        background-color: #E0E0E0; 
+        behavior: url(../include/mouseover.htc); 
+        border: #000000 1px solid; 	
+        font-size: 11px;
+        height: 13px; 	
+        width: 13px;
+        cursor: hand;
+  
+        
+  }
+  INPUT.BUTTONWIDE {
+        background-color: #E0E0E0; 
+        behavior: url../include/mouseover.htc); 
+        border: #000000 1px solid; 	
+        font-size: 11px;
+        height: 20px;
+        width: 100px;
+        cursor: hand;
+  }*/
+  INPUT.ROVER {
+      background-color: #E0E0E0;
+      behavior: url(../include/mouseover.htc);
+      border: #000000 1px solid;
+      font-size: 11px;
+      height: 20px;
+      width: 60px;
+      cursor: hand;
+  }
+  
+  INPUT.ROVERWIDE {
+      background-color: #E0E0E0;
+      behavior: url(../include/mouseover.htc);
+      border: #000000 1px solid;
+      font-size: 11px;
+      height: 20px;
+      width: 60px;
+      cursor: hand;
+  }
+  
+  INPUT.CHECKBOX {
+      border: 0;
+  }
+  
+  INPUT.RADIO {
+      border: 0;
+  }
+  
+  INPUT.DATE {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      position: relative;
+      behavior: url(../include/mask.htc);
+  }
+  
+  INPUT.COMBO {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      border-right: none;
+      position: relative;
+      behavior: url(../include/combo.htc);
+  }
+  
+  INPUT.DDOWN {
+      border: #C0C0C0 1px solid;
+      font-family: Marlett;
+      font-size: 9px;
+      text-align: center;
+      background-color: #E0E0E0;
+      width: 17px;
+      height: 17px;
+      position: relative;
+      behavior: url(../include/ddbutton.htc);
+  }
+  
+  INPUT.NUMBER {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      text-align: right;
+      behavior: url(../include/mask.htc);
+  }
+  
+  SELECT {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+  }
+  
+  BUTTON {
+      border: #ff0000 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      /*
+      width: 35px;
+      height: 20px;
+      */
+      behavior: url(mouseover.htc);
+  }
+  
+  BUTTON.BUTTON {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      width: 35px;
+      height: 20px;
+      behavior: url(../include/mouseover.htc);
+  }
+  
+  BUTTON.BUTTON2 {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      width: 13px;
+      height: 13px;
+      behavior: url(../include/mouseover.htc);
+  
+  }
+  
+  BUTTON.ROVER {
+      border: #000000 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 8px;
+      width: 35px;
+      height: 20px;
+      behavior: url(../include/mouseover.htc);
+  }
+  
+  BUTTON.SBT {
+      text-align: left;
+      border: none;
+      width: 100%;
+      height: 20px;
+      behavior: url();
+  }
+  
+  TEXTAREA {
+      border: #C0C0C0 1px solid;
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: 11px;
+  }
+  
+  IFRAME {
+      position: absolute;
+      vvisibility: hidden;
+      width: 100%;
+      height: 100%;
+      z-index: 98;
+      border: 0;
+  }
+  
+  IFRAME.DD {
+      position: absolute;
+      visibility: hidden;
+      width: 180px;
+      height: 150px;
+      z-index: 100;
+      border: 1px solid #C0C0C0;
+      behavior: url(../include/ddwindow.htc);
+  }
+  
+  IFRAME.CAL {
+      position: absolute;
+      visibility: hidden;
+      width: 192px;
+      height: 155px;
+      z-index: 100;
+      border: 1px solid #cdcdcd;
+  }
+  
+  IMG.PIC {
+      border: #C0C0C0 1px solid;
+  }
+  
+  IMG.image {
+      border: 0;
+      vertical-align: middle;
+      cursor: hand;
+  }
+  
+  a {
+      text-decoration: none;
+      border: 0;
+      font-size: 12px;
+      color: #0033aa;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+      border: 0;
+      /* font-size: 11px; */
+      color: #0033aa;
+  }
+  
+  .offtab {
+      BORDER-RIGHT: #cccccc 1px solid;
+      BORDER-TOP: #cccccc 1px solid;
+      FONT-WEIGHT: normal;
+      FONT-SIZE: 12px;
+      BORDER-LEFT: #cccccc 1px solid;
+      WIDTH: 14%;
+      CURSOR: hand;
+      BORDER-BOTTOM: #cccccc 1px solid;
+      BACKGROUND-COLOR: #e5e5e5;
+      TEXT-ALIGN: center
+  }
+  
+  .ontab {
+      BORDER-RIGHT: #cccccc 1px solid;
+      BORDER-TOP: #cccccc 1px solid;
+      FONT-WEIGHT: bold;
+      FONT-SIZE: 12px;
+      BORDER-LEFT: #cccccc 1px solid;
+      WIDTH: 14%;
+      CURSOR: hand;
+      COLOR: #ffffff;
+      BORDER-BOTTOM: #cccccc 1px solid;
+      BACKGROUND-COLOR: #ffae00;
+      TEXT-ALIGN: center
+  }
+  
+  TABLE.adminlist {
+      BORDER-RIGHT: #cccccc 1px solid;
+      PADDING-RIGHT: 0px;
+      BORDER-TOP: #cccccc 1px solid;
+      PADDING-LEFT: 0px;
+      PADDING-BOTTOM: 0px;
+      MARGIN: 0px;
+      BORDER-LEFT: #cccccc 1px solid;
+      WIDTH: 100%;
+      PADDING-TOP: 0px;
+      BORDER-BOTTOM: #cccccc 1px solid;
+      BORDER-COLLAPSE: collapse;
+      BACKGROUND-COLOR: #ffffff;
+      border-spacing: 0px
+  }
+  
+  TABLE.adminlist TH {
+      PADDING-RIGHT: 4px;
+      PADDING-LEFT: 4px;
+      FONT-SIZE: 11px;
+      BACKGROUND: url(../../../images/background.gif);
+      PADDING-BOTTOM: 2px;
+      MARGIN: 0px;
+      COLOR: #ffffff;
+      PADDING-TOP: 6px;
+      HEIGHT: 25px
+  }
+  
+  TABLE.adminlist TH.title {
+      TEXT-ALIGN: left
+  }
+  
+  TABLE.adminlist TH A {
+      COLOR: #ff9900
+  }
+  
+  TABLE.adminlist TR.row0 {
+      BACKGROUND-COLOR: #f5f5f5
+  }
+  
+  TABLE.adminlist TR.row1 {
+      BACKGROUND-COLOR: #fff
+  }
+  
+  TABLE.adminlist TD {
+      PADDING-RIGHT: 4px;
+      PADDING-LEFT: 4px;
+      PADDING-BOTTOM: 4px;
+      PADDING-TOP: 4px;
+      BORDER-BOTTOM: #e5e5e5 1px solid
+  }
+  
+  TABLE.adminlist TR.row0:hover {
+      BACKGROUND-COLOR: #f1f1f1
+  }
+  
+  TABLE.adminlist TR.row1:hover {
+      BACKGROUND-COLOR: #f1f1f1
+  }
+  
+  TABLE.adminlist TD.options {
+      FONT-SIZE: 8px;
+      BACKGROUND-COLOR: #ffffff
+  }
+  
+  SELECT.options {
+      BORDER-RIGHT: #999999 1px solid;
+      BORDER-TOP: #999999 1px solid;
+      FONT-WEIGHT: normal;
+      FONT-SIZE: 8px;
+      BORDER-LEFT: #999999 1px solid;
+      BORDER-BOTTOM: #999999 1px solid
+  }
+  
+  .tabheading {
+      FONT-SIZE: 10px;
+      COLOR: #fff;
+      BACKGROUND-COLOR: #ffae00;
+      TEXT-ALIGN: left
+  }
+  
+  .menubackgrb {
+      BACKGROUND: #E0E0E0;
+      BORDER-BOTTOM: #cccccc 1px solid
+  }
+  
+  .menubackgr {
+      /*BACKGROUND: #DDEEFF;*/
+      BACKGROUND: #DDEEFF;
+      BORDER-BOTTOM: #cccccc 1px solid
+  }
+  
+  .menudottedline {
+      BORDER-TOP: #ffffff 1px solid;
+      BORDER-BOTTOM: #cccccc 1px solid;
+      BACKGROUND-COLOR: #f1f3f5
+  }
+  
+  .adminheader {
+      FONT-SIZE: 24px;
+      COLOR: #ff9900
+  }
+  
+  HeaderTR {
+      background-color: #8E97BB;
+      font-size: 12px;
+      font-weight: bold
+  
+  }
+  
+  /* menu*/
+  .menu {
+          /*font-size: medium;
+          font-weight: bold; F7DA9C
+          font-family: Geneva, Arial, Helvetica, sans-serif;*/
+  margin: 0 0 0px 0;
+      padding: 0px 0px 0px 0px;
+      /* background-color: #F7DA9C; */
+      /*background-color: #997; ----original color*/
+      color: #fff;
+  }
+  .menu li {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: x-small;
+      list-style: none;
+      background-color: #ddb;
+  }
+  .menu a {
+      font-weight: normal;
+      display: block;
+      color: #F7DA9C;
+      /*width: 140px;*/
+      padding: 1px 15px 1px 5px;
+      text-decoration: none;
+      border-bottom: 1px solid #997;
+      border-top: 1px solid #eee;
+  } /*was 150*/
+  .menu a:hover {
+      color: #fff;
+      background-color: #9bc;
+      border-top: 1px solid #999;
+  
+  }
+  .menuheader {
+      /*font-size: medium;*/
+      font-weight: bold;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      margin: 0px 0px 0px 0px;
+      padding: 3px 0px 0px 4px;
+      /*background-color: #997;*/
+      background-color: #666;
+      background-image: url("/images/menutile.gif");
+      background-repeat: repeat-x;
+      color: #fff;
+  }
+  
+  
+  
+  .jTip{
+      cursor:help;
+  }
+  .shade
+  {
+  
+      COLOR: #333333;
+  
+      /*font-size: medium;
+      font-weight: bold; F7DA9C
+      font-family: Geneva, Arial, Helvetica, sans-serif;*/
+  margin: 0 0 0px 0;
+      padding: 0px 0px 0px 0px;
+      background-color: #F7DA9C;
+      /*background-color: #997; ----original color*/
+      color: #fff;
+  }
+  
+  .menu li {
+      font-family: Verdana, Arial, Helvetica, sans-serif;
+      font-size: x-small;
+      list-style: none;
+      background-color: #ddb;
+  }
+  
+  .menu a {
+      font-weight: normal;
+      display: block;
+      color: #F7DA9C;
+      /*width: 140px;*/
+      padding: 1px 15px 1px 5px;
+      text-decoration: none;
+      border-bottom: 1px solid #997;
+      border-top: 1px solid #eee;
+  }
+  
+  /*was 150*/
+  .menu a:hover {
+      color: #fff;
+      background-color: #9bc;
+      border-top: 1px solid #999;
+  
+  }
+  
+  .menuheader {
+      /*font-size: medium;*/
+      font-weight: bold;
+      font-family: Geneva, Arial, Helvetica, sans-serif;
+      font-size: 13px;
+      margin: 0px 0px 0px 0px;
+      padding: 3px 0px 0px 4px;
+      /*background-color: #997;*/
+      background-color: #666;
+      background-image: url("/images/menutile.gif");
+      background-repeat: repeat-x;
+      color: #fff;
+  }
+  
+  .jTip {
+      cursor: help;
+  }
+  
+  .shade {
+  
+  COLOR: #333333;
+  BACKGROUND-COLOR: #FFE4A2;
+  }
+  
+  .blackshade {
+      COLOR: #FFFFFF;
+      BACKGROUND-COLOR: #85A5F2;
+      FONT-WEIGHT: bold;
+  
+  }
+  
+  .blackshade:hover {
+      COLOR: #FFCC00;
+  }
+  
+  .fieldset {
+      margin-top: -10px;
+  }
+  
+  .fieldset legend {
+      font-size: 14px;
+      padding-top: 20px;
+  }
+  
+  .error_border{
+        border-color: red;
+        box-shadow: 0px 1px 1px rgba(27, 27, 27, 0) inset, 0px 0px 8px rgb(255, 100, 100);
+  }
+  .form4{
+        background-color: rgba(128, 179, 246, 0.31);
+  }
+  .form-header{
+        /* background-color: rgb(99, 181, 251);
+        color:white; */
+  }
+  @media only screen and (max-width: 600px) {
+        
+  }

@@ -1,0 +1,35 @@
+ 
+#customers,.customers
+{
+/*font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;*/
+width:100%;
+border-collapse:collapse;
+}
+#customers td, #customers th, .customers td, .customers th
+{
+ border: 1px solid #3C8DBC;
+ padding:3px 7px 2px 7px;
+ text-align: left;
+}
+#customers th 
+{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: bold;
+	font-size:1.4em;
+	color: #FCFCFD;
+	background-color: #3C8DBC;
+	/*font-size:1.4em;
+text-align:left;
+padding-top:5px;DDEEFF
+padding-bottom:4px;
+background-color:#CFF0BF;
+color:#fff;
+*/
+}
+#customers tr.alt td 
+{
+color:#000;
+background-color:#EAF2D3;
+}
+ 
